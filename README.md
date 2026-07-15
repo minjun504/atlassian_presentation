@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🔮 Accenture Project Cycle Datathon
-### Customer Churn & Retention — Workshop Info Pack
+### Customer Churn & Retention - Workshop Info Pack
 
 *An end-to-end machine-learning walkthrough: from messy raw data to an explainable churn-prediction model.*
 
@@ -23,8 +23,8 @@
 
 > [!NOTE]
 > **New here? Read the [📘 Info Pack](INFO_PACK.md) first.**
-> It's the full workshop written as a *readable handbook* — every concept explained in plain
-> English, no live presenter required. This README is the map; the Info Pack is the guided tour.
+> It's the full workshop written as a readable handbook, with every concept explained in plain
+> English. This README is the map; the Info Pack is the guided tour.
 
 ---
 
@@ -34,7 +34,7 @@ This repository is the teaching material for the **Accenture Project Cycle Datat
 realistic (synthetic) SaaS dataset and walks through the **complete data-science project cycle** used
 to answer one business question:
 
-> **Which customers are about to churn — and *why*?**
+> **Which customers are about to churn - and *why*?**
 
 You'll go from raw, messy CSVs all the way to a tuned, explainable model that flags at-risk customers.
 Everything is designed to be **run top-to-bottom** and **read like a book**.
@@ -65,7 +65,7 @@ flowchart LR
 
 ## 📚 The three notebooks
 
-Work through them **in order** — each one hands its output to the next.
+Work through them **in order** - each one hands its output to the next.
 
 | # | Notebook | What you'll do | Key tools |
 |---|----------|----------------|-----------|
@@ -78,20 +78,20 @@ Work through them **in order** — each one hands its output to the next.
 ## 🗃️ The dataset
 
 Four synthetic tables model a SaaS product's customers and their behaviour. The star of the show is
-the **`churned_30d`** flag — did the customer leave within 30 days?
+the **`churned_30d`** flag - did the customer leave within 30 days?
 
 | Table | Grain | What it tells us |
 |-------|-------|------------------|
-| 👤 **users.csv** | one row per user | Who the customer is — plan, company size, region, industry, and the **churn labels** we're predicting. |
-| 🖥️ **sessions.csv** | one row per session | When and how they log in — device, OS, app version, session length. |
-| ⚡ **events.csv** | one row per action | What they *do* inside the product — features used, success, latency. |
-| 💳 **billing.csv** | one row per user-month | The money story — MRR, seats, discounts, overdue invoices, support tickets. |
+| 👤 **users.csv** | one row per user | Who the customer is - plan, company size, region, industry, and the **churn labels** we're predicting. |
+| 🖥️ **sessions.csv** | one row per session | When and how they log in - device, OS, app version, session length. |
+| ⚡ **events.csv** | one row per action | What they *do* inside the product - features used, success, latency. |
+| 💳 **billing.csv** | one row per user-month | The money story - MRR, seats, discounts, overdue invoices, support tickets. |
 
 📖 **Full column dictionary:** [`data/raw_data/README.md`](data/raw_data/README.md)
 
 > [!TIP]
 > The starter notebooks only use `users.csv`. The **sessions**, **events**, and **billing** tables are
-> your competitive edge — engineer features from them to find signals the baseline misses.
+> your competitive edge - engineer features from them to find signals the baseline misses.
 
 ---
 

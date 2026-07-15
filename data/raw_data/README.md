@@ -1,4 +1,4 @@
-# 📊 Data Dictionary — Engagement & Retention Dataset
+# 📊 Data Dictionary - Engagement & Retention Dataset
 
 > **Accenture Project Cycle Datathon** · a synthetic dataset modelling a SaaS product's customers and
 > their behaviour. The prediction target is **customer churn** (`churned_30d` / `churned_90d`).
@@ -15,7 +15,7 @@ Four tables, joinable on **`user_id`**:
 ---
 
 ## 👤 users.csv
-*One row per customer — this is where the prediction targets live.*
+*One row per customer - this is where the prediction targets live.*
 
 | Column | Description |
 |--------|-------------|
@@ -27,8 +27,8 @@ Four tables, joinable on **`user_id`**:
 | `industry` | Business industry category |
 | `acquisition_channel` | How the user was acquired |
 | `is_enterprise` | Whether the user is an enterprise customer |
-| 🎯 `churned_30d` | **Target** — user churned within 30 days |
-| 🎯 `churned_90d` | **Target** — user churned within 90 days |
+| 🎯 `churned_30d` | **Target** - user churned within 30 days |
+| 🎯 `churned_90d` | **Target** - user churned within 90 days |
 | `downgraded` | User downgraded their plan |
 | `expansion_event` | User expanded their usage |
 
@@ -85,5 +85,5 @@ Four tables, joinable on **`user_id`**:
 
 > [!TIP]
 > The starter notebooks only use **`users.csv`**. Aggregating `sessions`, `events`, and `billing` per
-> user (join on `user_id`) is where the strongest churn signals usually hide — see the
+> user (join on `user_id`) is where the strongest churn signals usually hide - see the
 > [Info Pack](../../INFO_PACK.md#-datathon-tips) for ideas.
